@@ -1,0 +1,19 @@
+{
+  "name": "personal-finances",
+  "version": "0.0.0",
+  "description": "",
+  "main": "packages/server/index.js",
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream",
+    "format:fix": "prettier --write './**/*.{js,json,md}'",
+    "postinstall": "lerna bootstrap",
+    "test": "lerna run test"
+  },
+  "author": "Zack Harley",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "lerna": "^3.1.1",
+    "prettier": "^1.14.2"
+  }
+}
