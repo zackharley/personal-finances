@@ -1,5 +1,6 @@
-// const  API_ROOT_URL = 'https://server-veiapxrgeh.now.sh';
-const  API_ROOT_URL = 'http://localhost:8000';
+const  API_ROOT_URL = process.env.REACT_APP_API_ROOT_URL;
+
+console.log(API_ROOT_URL);
 
 export default {
   createTransaction: async (data) => {

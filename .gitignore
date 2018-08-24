@@ -2,6 +2,7 @@ node_modules
 .env
 *.log
 .DS_STORE
+packages/client/build
 
 # User-specific stuff
 .idea/**/workspace.xml

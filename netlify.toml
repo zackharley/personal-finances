@@ -1,0 +1,4 @@
+[build]
+  base    = "packages/client"
+  publish = "packages/client/build"
+  command = "ls -a && npm run build"
